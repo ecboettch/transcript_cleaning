@@ -7,8 +7,8 @@ ZoomTranscriptCleaner: This script takes a Zoom transcript (NameOfFile.vtt) and 
 * Based on a dictionary supplied by the researcher (replacements), fixes common mistranscriptions
 * Removes timestamps
 * Removes line breaks between consecutive lines spoken by same person
-* Based on a list of names supplied by the researcher (team), swaps out each name for <INTERVIEWER> or <INTERVIEWEE>. If a name is not found in the list team, including if the team is empty, the script will ask the person running it whether the name is an interviewer. Enter the string 'yes' to code that name as <INTERVIEWER>; enter any other string for it to be coded as <INTERVIEWEE>.
-* Where ther are multiple interviewers or interviewees, numbers interviewers or interviewees as <INTERVIEWER-1>, <INTERVIEWER-2> based on who speaks first
+* Based on a list of names supplied by the researcher (team), swaps out each name for INTERVIEWER or INTERVIEWEE. If a name is not found in the list team, including if the team is empty, the script will ask the person running it whether the name is an interviewer. Enter the string 'yes' to code that name as INTERVIEWER; enter any other string for it to be coded as INTERVIEWEE.
+* Where there are multiple interviewers or interviewees, numbers interviewers or interviewees as INTERVIEWER-1, INTERVIEWER-2 based on who speaks first
   
 AbbrevCleaner: This script takes a text file (NameOfFile.txt) and outputs a new file (NameOfFileAbbrev.txt) and a list of unrecognized abbreviations. It capitalizes interviewer lines and spells out recognized abbreviations in brackets. 
 
